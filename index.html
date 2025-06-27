@@ -1,39 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>My Hover Widget</title>
-  <style>
-    .tooltip {
-      position: relative;
-      display: inline-block;
-      cursor: pointer;
-    }
-    .tooltip .tooltiptext {
-      visibility: hidden;
-      background-color: black;
-      color: #fff;
-      text-align: center;
-      border-radius: 6px;
-      padding: 5px;
-      position: absolute;
-      z-index: 1;
-      bottom: 125%; 
-      left: 50%;
-      transform: translateX(-50%);
-      opacity: 0;
-      transition: opacity 0.3s;
-    }
-    .tooltip:hover .tooltiptext {
-      visibility: visible;
-      opacity: 1;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Retro Pixel Clock</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Hover over me!</h1>
-  <div class="tooltip">🔍 Hover here
-    <div class="tooltiptext">This is a tooltip</div>
-  </div>
+  <div class="clock" id="clock">00:00:00</div>
+  <script src="script.js"></script>
 </body>
 </html>

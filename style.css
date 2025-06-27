@@ -1,0 +1,17 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Press Start 2P', monospace;
+}
+
+.clock {
+  color: #00ff00;
+  font-size: 32px;
+  background: #000;
+  border: 2px solid #00ff00;
+  padding: 20px;
+  box-shadow: 0 0 10px #00ff00;
+}
